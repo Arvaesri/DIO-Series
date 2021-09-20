@@ -299,6 +299,7 @@ namespace DIO.Series
                 }
                 opcaoUsuario = ObterOpcaoUsuario();
             }
+            System.Environment.Exit(0);
         }
 
         private static void MenuFilmes()
@@ -336,6 +337,7 @@ namespace DIO.Series
                 }
                 opcaoUsuarioFilmes = ObterOpcaoUsuarioFilmes();
             }
+            System.Environment.Exit(0);
         }
     
     }
